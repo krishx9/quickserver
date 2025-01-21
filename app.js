@@ -4,17 +4,17 @@ const app = express();
 
 app.use(express.json());
 
-const jsonFilePath = "./data.json"; // Path to your JSON file
+const jsonFilePath = "wallet.json"; // Path to your JSON file
 
-app.get("/json", (req, res) => {
+app.get("/wallet", (req, res) => {
   const data = fs.readFileSync(jsonFilePath);
   res.json(JSON.parse(data));
 });
 
-app.post("/json", (req, res) => {
+app.post("/wallet", (req, res) => {
   const newData = req.body;
   fs.writeFileSync(jsonFilePath, JSON.stringify(newData, null, 2));
-  res.send("JSON Updated!");
+  res.json(newData);
 });
 
 app.listen(3000, () => {

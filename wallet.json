@@ -1,0 +1,25 @@
+{
+  "balance": 129,
+  "wallets": [
+    {
+      "name": "nikhil",
+      "balance": 0,
+      "transactions": []
+    },
+    {
+      "name": "shreyans",
+      "balance": 0,
+      "transactions": []
+    },
+    {
+      "name": "krish",
+      "balance": 0,
+      "transactions": []
+    },
+    {
+      "name": "admin",
+      "balance": 0,
+      "transactions": []
+    }
+  ]
+}
