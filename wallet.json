@@ -1,25 +1,10 @@
 {
-  "balance": -29,
+  "balance": 0,
   "wallets": [
     {
       "name": "krish",
-      "balance": 19,
-      "transactions": [
-        {
-          "beneCode": "APIBENE0069463223",
-          "beneName": "PADDA MOHANAKRISHNA",
-          "beneAccNum": "krishbutterfly@axl",
-          "beneIfscCode": "",
-          "beneAcType": 10,
-          "transcation_id": "TRAREF00069463222",
-          "amount": 10,
-          "payment_remark": "From Praavi Work Tools Private Limited using BULKPE",
-          "payment_mode": "UPI",
-          "status": "PENDING",
-          "vaId": "SVA0061973",
-          "message": "Transaction Initiated!"
-        }
-      ]
+      "balance": 0,
+      "transactions": []
     },
     {
       "name": "nikhil",
