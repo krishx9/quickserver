@@ -17,6 +17,21 @@ app.post("/wallet", (req, res) => {
   res.json(newData);
 });
 
+app.post("/credit", (req, res) => {
+  console.log("Webhook received credit:", req.body);
+  res.status(200).send("Webhook received");
+});
+
+app.post("/debit", (req, res) => {
+  console.log("Webhook received debit:", req.body);
+  res.status(200).send("Webhook received");
+});
+
+app.post("/bankVerify", (req, res) => {
+  console.log("Webhook received verify:", req.body);
+  res.status(200).send("Webhook received");
+});
+
 app.listen(3000, () => {
   console.log("Server is running on port 3000");
 });
